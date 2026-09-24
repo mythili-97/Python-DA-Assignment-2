@@ -4,7 +4,7 @@ Project overview:Taxi services generate large amount of trip data everyday.Analy
 
 ## Description
 In this project,taxi trip data is cleaned,analyzed and visualized using Python,Pandas,Matplotlib and Seaborn.The analysis focuses on handling missing values,exploring numerical and categorical variables and identifying meaningful patterns in taxi trips.
-Objectives:
+##Objectives:
 *Clean and preprocess the taxi trip dataset using Pandas.
 *Identify and handle missing values.
 *Explore the distribution of important numerical variables
@@ -13,15 +13,15 @@ Objectives:
 *Create meaningful visualizations using matplotlib and Seaborn
 *Derive useful insights from analyzed data
 
-Tools and Technologies:
+##Tools and Technologies:
 Python,Pandas(data cleaning and analysis),Matplotlib(Data visualization),Seaborn(Statistical visualization),Jupyter Notebook/Google Colab
 
-Data Cleaning:
+##Data Cleaning:
 *Checking dataset structure and data types
 *Handling missing values where required
 *Preparing cleaned data for visualizations
 
-Exploratory Data Analysis:
+##Exploratory Data Analysis:
 The following visualizations were created to undrstand taxi trip data:
 *Using matplotlib:
 1.Line Chart:Used to visualize fare over pickup time
@@ -36,14 +36,14 @@ The following visualizations were created to undrstand taxi trip data:
 9.Pair Plot:to visualize pairwise relations between distance,fare,tip,total according to the pickup zone
 10.Violin Plot:It shows distribution of fare for each payment method
 
-Key Insights:
+#Key Insights:
 *Short distance taxi trips occur frequently than longer trips
 *Fare generally increases with increasing trip distance
 *Correlation analysis helps to identify relationships among numerical variables
 *fare distributions differ across payment methods
 *Most of the observations fall within normal range, with only few outliers
 
-Conclusion:
+#Conclusion:
 This project demonstrates the use of Python,Pandas,Matplotlib and Seaborn for cleaning,visualizing real-world taxi trip data.The project also demonstrates fundamental Exploratory Data Analysis(EDA)which is required for a Data Analyst 
 
 ## Version History
